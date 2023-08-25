@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn-primary{
+    background-color: rgba(255, 0, 0, 0.815);
+    color: bisque;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* heading start */
+header{
+background-color: rgba(255, 238, 0, 0.774);
+}
+.header-nav{
+display: flex;
+justify-content:space-between;
+width: 80%;
+margin: 0 auto;
+}
+.header-nav h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.header-nav span{
+    color: rgba(255, 102, 0, 0.904);
+}
+ nav{}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav ul li{list-style: none;
+margin-left: 30px;}
+.header-content-container{
+    display: flex;
+    
+    align-items: center;
+    width: 80%;
+    margin: 31px 28px 100px 90px;
+}
+.header-content{}
+.header-content h3{
+    font-size: 40px;
+    
+    margin-bottom: 10px;
+}
+.header-content h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.header-content p{
+    margin: 10px 0;
+}
+.header-content-container img{
+    width: 300px;
+    margin-left: 100px;
+}
+/* heading end */
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+.about-contact-info{
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+}
+.content{
+    margin: 0 5px;
+}
+.about-container{
+    text-align: center;
+}
+.about-container h3{
+    margin: 20px 0;
+}
+.skill-section{ 
+    text-align: center;
+    margin-top: 50px;
+}
+.skill-container{
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+}
+.skill{
+    padding:12px ;
+    border-radius: 5px;
+    background-color:#f3e9e9;
+    box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.5) ;
+}
+.resume-section{text-align: center;
+margin-top: 60px;}
+.resume-container{ display: flex;
+gap: 40px;}
+.education-container{}
+.button a button{
+    margin-top: 30px;
+}
+footer{
+    display: flex;
+    gap: 50px;
+    padding: 134px;
+}
+.footer-column{
+    width: 50%;
+}
+.footer-column input{
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: ;
+}
+@media screen and (max-width:767px) {
+.header-content h3, .header-content p{
+    font-size: 20px;
+}
+.header-content h1{
+    font: 32px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.header-content-container{
+    flex-direction: column;
+    margin: 10px;
+}
+.header-content{
+    text-align: center;
+}
+.about-contact-info{
+    flex-direction: column;
+}
+}
+@media screen and (min-width:568px) and (max-width:767px) {
+    
+}
+@media screen and (min-width:768px) and(max-width:1200px) {
+    
+}
